@@ -7,20 +7,20 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int(getenv("API_ID", 27798659))
-API_HASH = getenv("API_HASH", "26100c77cee02e5e34b2bbee58440f86")
-BOT_TOKEN = getenv("BOT_TOKEN")
+API_ID = int(getenv("API_ID", 17934472))
+API_HASH = getenv("API_HASH", "23b99eac697eca8016878d704aa80a24")
+BOT_TOKEN = getenv("BOT_TOKEN", "8428294073:AAG8doW9RqloJnxjc95f5vabsANiC3TmjZc")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
-BOT_USERNAME = getenv("BOT_USERNAME", "TuneviaBot")
-BOT_NAME = getenv("BOT_NAME", "˹ᴛᴜɴᴇ ᴠɪᴀ ʙᴏᴛ˼")
-ASSUSERNAME = getenv("ASSUSERNAME", "tuneviaassis")
+OWNER_ID = int(getenv("OWNER_ID", 7639271205))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@Sidhaa_bacha")
+BOT_USERNAME = getenv("BOT_USERNAME", "@Lyara_musicbot")
+BOT_NAME = getenv("BOT_NAME", "˹𝙇𝙮𝙧𝙖 ꭙ 𝙑𝙞𝙗𝙚𝙯 ♪˼")
+ASSUSERNAME = getenv("ASSUSERNAME", "")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 
 # ───── Mongo & Logging ───── #
-MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+MONGO_DB_URI = getenv("MONGO_DB_URl", "mongodb+srv://rajrajbarman02:rajrajkumar02@rajrajkumar.fywl2ol.mongodb.net/")
+LOGGER_ID = int(getenv("LOGGER_ID", -1002346443519))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -45,8 +45,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 # ───── Support & Community ───── #
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Moon_Network")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/lyra_maxx")
 
 # ───── Assistant Auto Leave ───── #
 AUTO_LEAVING_ASSISTANT = False
