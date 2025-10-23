@@ -40,15 +40,15 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ───── Git & Updates ───── #
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/CertifiedDevloper/TuneViaBot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/nexxababy/Meri-palak")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
-GIT_TOKEN = getenv("GIT_TOKEN")
+GIT_TOKEN = getenv("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")
 
 # ───── Support & Community ───── #
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Moon_Network")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/lyra_maxx")
 
-# ───── Assistant Auto Leave ───── #
+# ───── Assistant Auto Leave ───── #https://github.com/nexxababy/Meri-palak/blob/Master/config.py
 AUTO_LEAVING_ASSISTANT = False
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "3600"))
 
