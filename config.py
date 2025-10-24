@@ -19,7 +19,7 @@ ASSUSERNAME = getenv("ASSUSERNAME", "")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 
 # ───── Mongo & Logging ───── #
-MONGO_DB_URI = "mongodb+srv://rajrajbarman02:rajrajkumar02@rajrajkumar.fywl2ol.mongodb.net/")
+MONGO_DB_URI = "mongodb+srv://rajrajbarman02:rajrajkumar02@rajrajkumar.fywl2ol.mongodb.net/"
 LOGGER_ID = -1002346443519
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
