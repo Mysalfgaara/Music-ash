@@ -7,9 +7,9 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = int("API_ID", 17934472)
-API_HASH = ("API_HASH", "23b99eac697eca8016878d704aa80a24")
-BOT_TOKEN = ("BOT_TOKEN", "8428294073:AAG8doW9RqloJnxjc95f5vabsANiC3TmjZc")
+API_ID = 17934472
+API_HASH = "23b99eac697eca8016878d704aa80a24"
+BOT_TOKEN = "8428294073:AAG8doW9RqloJnxjc95f5vabsANiC3TmjZc"
 
 OWNER_ID = int(getenv("OWNER_ID", 7639271205))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@Sidhaa_bacha")
@@ -19,8 +19,8 @@ ASSUSERNAME = getenv("ASSUSERNAME", "")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 
 # ───── Mongo & Logging ───── #
-MONGO_DB_URI = getenv("MONGO_DB_URl", "mongodb+srv://rajrajbarman02:rajrajkumar02@rajrajkumar.fywl2ol.mongodb.net/")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002346443519))
+MONGO_DB_URI = "mongodb+srv://rajrajbarman02:rajrajkumar02@rajrajkumar.fywl2ol.mongodb.net/")
+LOGGER_ID = -1002346443519
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -31,7 +31,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1288490189"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 # ── External APIs ──────────────────────────────────────────────────────────────
-COOKIE_URL = ("https://batbin.me/mahometry")  # required (paste link)
+COOKIE_URL = "https://batbin.me/mahometry"  # required (paste link)
 API_URL = getenv("API_URL")        # optional
 API_KEY = getenv("API_KEY")        # optional
 
