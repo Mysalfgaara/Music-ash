@@ -103,10 +103,6 @@ DURATION_LIMIT = time_to_seconds(f"{DURATION_LIMIT_MIN}:00")
 
 # ───── Bot Introduction Messages ───── #
 AYU = ["💞", "🦋", "🔍", "🧪", "⚡️", "🔥", "🎩", "🌈", "🍷", "🥂", "🥃", "🕊️", "🪄", "💌", "🧨"]
-AYUV = [
-"✨ ᴊᴀɪ ꜱʜʀᴇᴇ ᴋʀɪꜱʜɴᴀ, {0} ~ 🦚\n\nɪᴛ'ꜱ ᴍᴇ — {1}, ᴡʜᴇʀᴇ ᴇᴄʜᴏᴇꜱ ᴍᴇᴇᴛ ᴇᴍᴏᴛɪᴏɴꜱ, ᴀɴᴅ ʀʜʏᴛʜᴍ ᴍᴇᴇᴛꜱ ʀᴇᴀʟɪᴛʏ 🎶
-ʀɪᴅɪɴɢ ᴛʜʀᴏᴜɢʜ ᴠɪʙᴇꜱ, ꜱᴘʀᴇᴀᴅɪɴɢ ꜱᴏᴜɴᴅꜱ ᴛʜᴀᴛ ꜱᴘᴇᴀᴋ ᴛᴏ ʏᴏᴜʀ ꜱᴏᴜʟ ✨
-ꜱɪɴᴋ ɪɴᴛᴏ ᴍʏ ᴍᴇʟᴏᴅʏ — ᴡʜᴇʀᴇ ꜱɪʟᴇɴᴄᴇ ᴛᴜʀɴꜱ ɪɴᴛᴏ ᴍᴜꜱɪᴄ 💫 🎶\n\n┏━❖ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴘʟᴀᴛꜰᴏʀᴍꜱ ❖━┓\n┃ 🎧 YouTube | Spotify | Resso\n┃ 🎼 Apple Music | SoundCloud etc.\n┗━━━━━━━━━━━━━━━━━━━━━━┛\n\n┏━❖ ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ❖━┓\n┃ 🔸 Uptime        : {2}\n┃ 🔸 Storage       : {3}\n┃ 🔸 CPU Load      : {4}\n┃ 🔸 RAM Usage     : {5}\n┃ 🔸 Total Users   : {6}\n┃ 🔸 Total Chats   : {7}\n┗━━━━━━━━━━━━━━━━━━━━━━┛ \n\n🫧 ʟᴏʀᴅ ➤ [⎯꯭‌꥓꯭𝆬⏤⃝𓆩〭〬ꭗ꯭𓆩〭⃛〬𝐍꯭𝐄꯭𝐗꯭𝐗𝐀𓆪꯭؛ٍّ𝅯»𔘓꯭⃭ 🎧](https://t.me/Sidhaa_bacha)",
 
 # ───── Runtime Structures ───── #
 BANNED_USERS = filters.user()
