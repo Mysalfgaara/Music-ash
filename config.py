@@ -7,7 +7,7 @@ from pyrogram import filters
 load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
-API_ID = 17934472
+API_ID = 24177470
 API_HASH = "23b99eac697eca8016878d704aa80a24"
 BOT_TOKEN = "8428294073:AAG8doW9RqloJnxjc95f5vabsANiC3TmjZc"
 
