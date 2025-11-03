@@ -42,7 +42,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ───── Git & Updates ───── #
 UPSTREAM_REPO = "https://github.com/nexxababy/Meri-palak"
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
-GIT_TOKEN = "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"
+GIT_TOKEN = "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"
 
 # ───── Support & Community ───── #
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Moon_Network")
