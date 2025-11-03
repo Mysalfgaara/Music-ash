@@ -8,19 +8,19 @@ load_dotenv()
 
 # ── Core bot config ────────────────────────────────────────────────────────────
 API_ID = 24177470
-API_HASH = "23b99eac697eca8016878d704aa80a24"
-BOT_TOKEN = "8428294073:AAG8doW9RqloJnxjc95f5vabsANiC3TmjZc"
+API_HASH = "8b488eae6d804df1fc1150a881ae224a"
+BOT_TOKEN = "7983143076:AAHk021qsBCUvaT4FColHaGWAHtOEgduIqw"
 
-OWNER_ID = int(getenv("OWNER_ID", 7639271205))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@Sidhaa_bacha")
-BOT_USERNAME = getenv("BOT_USERNAME", "@Lyara_musicbot")
-BOT_NAME = getenv("BOT_NAME", "˹𝙇𝙮𝙧𝙖 ꭙ 𝙑𝙞𝙗𝙚𝙯 ♪˼")
+OWNER_ID = int(getenv("OWNER_ID", 7088023034))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@Owner_Sinzhu")
+BOT_USERNAME = getenv("BOT_USERNAME", "@OwnAshMusicBOT")
+BOT_NAME = getenv("BOT_NAME", "❰ 𝗔ѕн x Music-❱")
 ASSUSERNAME = getenv("ASSUSERNAME", "")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 
 # ───── Mongo & Logging ───── #
 MONGO_DB_URI = "mongodb+srv://rajrajbarman02:rajrajkumar02@rajrajkumar.fywl2ol.mongodb.net/"
-LOGGER_ID = -1002346443519
+LOGGER_ID = -1003208290943
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -60,7 +60,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "22b6125bfe224587b722d6815002db2
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc68624851e9773")
 
 # ───── Session Strings ───── #
-STRING1 = "BQG5--wAY8U2NYP8eoKV3fNQMQKjJpYfo7LV6HnxzduOFQxUd7Zr1h22jzcl0dloPtphRBX1FpTS4e4mPP7UbH0Rg-Y-zPCJoji3UgDu5r7MMgAKBAZd8d7kqbuOcDA0fAsj5HUL_j5JtstWQrF6VcauUJ-Kw6qwpO5lzUtXWGS-E1c5AUxJmmZ52lTMHCPvzeK8Lx5oIFoz0UNsN2Gvdy3SJQArQu943Drb7wWwQBusYl77FrichrzrP_Z1_InRUy298C2CaNKuoeiW94K3WzIjwtsX10u2ImjZS-qjUg2Uiueb-0Qhm_o6OYoZRjvRUi2eIVajNxEx_Uy0NfDY7FbB3-5RMQAAAAGcSPUUAA"
+STRING1 = "BQERqIgAeoWMwiUaOMkhStDbZiKqPLLgbLS_6pMngO5gJi9djqZySEw3WNrCKgu3D-mEXDZ8kMi-TYkv7d9D1DBC8HHpkH7ZhnSt8GiwB0jxCTqq3LcfwgGiov9c4k_J6jvrI1GqtF4PKKZz71ktcrORtWOz5bvYkWDvGmbDQy_RZwA4dxAQvB0wTc22LOiVErIzeJQyGVr6VZ8LOmQEksMRaZ_ZWnjL6MiyTQZhfMRJeZnQv2NXFE8AUDphP06S2zRfq_jYYkkkDf-35eh7ZakMJYGyolYFYguyEjHEP2wb4G4RQh9KPzcY4_K94WyxPAvwbnafa6sj9msAdHtfqVoPqP3JcAAAAAHR1eLSAA"
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
